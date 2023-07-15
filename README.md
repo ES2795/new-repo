@@ -1,1 +1,12 @@
-#new-repo
+How does branching work?
+A branch is a point of divergence as well as a copy of the codebase at a given point in time. Developers or IT teams can work with branches to accomplish necessary tasks, such as bug fixes or new features, without affecting other branches or the main codebase. Developers can then merge and consolidate the branches to enable collaboration. This ensures the branches never diverge too far from the main codebase.
+
+
+Branching strategies
+Businesses can adapt and tailor branching strategies to meet a project's unique needs. There are five generic strategy types:
+
+Trunk and release branching. Release branching creates a branch for the desired release candidate. Developers create and maintain the main code line or trunk branch, and then create a branch to release or deploy to production. Release branching requires developers to apply other branches, such as changes or fixes, to both the release branch and the main code line.
+Feature branching. Feature branching creates a branch to implement a new feature or user story in the project. When the feature branch merges to the project, it adds the new feature. Flags are often used with feature branches to enable or disable the feature while it's in development -- or it's disabled so that users don't see or use the feature until it's ready.
+Change and development branching. Sometimes associated with feature branching, change or development branching represents a longer-lived branch that contains changes and enhancements. Change and development branches are not the result of defects or the addition of new features, which have their own respective branches. Change and development branches can receive input from numerous developers and must undergo extensive testing and validation.
+Fix branching. Fix branching implements bug fixes or optimizations. A fix branch represents a longer-lived, broader and more comprehensive fix for low- and medium-priority issues -- or a short-lived emergency hotfix for critical issues, such as unexpected server instability. An organization might use two different fix branching types for regular fixes and hotfixes.
+Task branching. Task branching addresses development by envisioning every fix, change or feature as a task, which an issue tracking platform, such as Jira, can follow and reference. Each issue corresponds to its own branch. By coupling tasks with issues, developers and project managers can readily see which code addresses which issue.
